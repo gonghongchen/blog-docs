@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
     ],
-    logo: '../assets/logo.jpg',
+    logo: '/assets/logo.jpg',
     sidebar: [
       {
         text: '杂谈',
@@ -33,7 +33,7 @@ export default defineConfig({
   head: [
     [
       'link',
-      { rel: 'icon', href: '../assets/logo.jpg' }
+      { rel: 'icon', href: '/assets/logo.jpg' }
     ],
   ]
 })
