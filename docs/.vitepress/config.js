@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
     ],
-
+    logo: '../assets/logo.jpg',
     sidebar: [
       {
         text: '杂谈',
@@ -18,7 +18,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '前端技术',
+        text: '前端',
         items: [
           { text: 'nrm安装过程遇到的问题及解决方案', link: '/front-end/nrm安装过程遇到的问题及解决方案' },
           { text: '新系统主题切换功能的总结', link: '/front-end/新系统主题切换功能的总结' }
@@ -29,5 +29,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/gonghongchen/' }
     ]
-  }
+  },
+  head: [
+    [
+      'link',
+      { rel: 'icon', href: '../assets/logo.jpg' }
+    ],
+  ]
 })
