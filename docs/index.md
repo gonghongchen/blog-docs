@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 查看内容
-      link: /英雄联盟语录
+      link: /others/英雄联盟语录
     - theme: alt
       text: GitHub
       link: https://github.com/gonghongchen/

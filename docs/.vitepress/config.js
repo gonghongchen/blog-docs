@@ -14,14 +14,14 @@ export default defineConfig({
       {
         text: '杂谈',
         items: [
-          { text: '英雄联盟语录', link: '/英雄联盟语录' },
+          { text: '英雄联盟语录', link: '/others/英雄联盟语录' },
         ]
       },
       {
         text: '前端技术',
         items: [
-          { text: 'nrm安装过程遇到的问题及解决方案', link: '/nrm安装过程遇到的问题及解决方案' },
-          { text: '新系统主题切换功能的总结', link: '/新系统主题切换功能的总结' }
+          { text: 'nrm安装过程遇到的问题及解决方案', link: '/front-end/nrm安装过程遇到的问题及解决方案' },
+          { text: '新系统主题切换功能的总结', link: '/front-end/新系统主题切换功能的总结' }
         ]
       }
     ],
